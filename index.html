@@ -4,11 +4,345 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <title>The Kingdom of Ancient Egypt</title>
+    <meta name="description" content="Explore the ancient Egyptian dynasties and their remarkable artifacts">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
 </head>
 
 <body>
-    <h1>The Kingdom of Ancient Egypt</h1>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="/" aria-label="Home">
+                <div class="logo">
+                    <img src="./img/logo.svg">
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#timeline">Dynasties</a></li>
+                    <li><a href="#artifacts">Artifacts</a></li>
+                    <li><a href="#contact">FAQs</a></li>
+                </ul>
+        </nav>
+        <!-- Mobile Hamburger Menu Icon -->
+        <div class="mob-nav" id="hamburger-icon" aria-label="Toggle menu">
+            <!-- This is the hamburger icon -->
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="timeline-container" aria-label="Dynasty timeline">
+            <div class="hero-title">
+                <h1>Step Into the World of Egypt’s Timeless Kings</h1>
+            </div>
+            <div class="overview">
+                <p class="overview-intro">Welcome to our virtual museum, where the past comes to life through
+                    cutting-edge technology and
+                    immersive storytelling.
+                    Explore the fascinating legacies of four iconic Egyptian kings — <a href="#id1">Khafre</a>, <a
+                        href="#id2">Amenemhat III</a>, <a href="#id3">Ramesses II</a>, and
+                    <a href="#id4">Ramesses III</a> — brought to you in stunning 3D detail.
+                </p>
+
+                <p>Each model offers a window into the grandeur of ancient Egypt, showcasing the artistry, power, and
+                    influence of these
+                    legendary pharaohs. With interactive 3D displays, you can examine intricate details, learn about
+                    their
+                    history, and
+                    uncover the stories behind their reigns.</p>
+
+                <p>Whether you’re a history enthusiast, a student, or simply curious, this website invites you to embark
+                    on
+                    a journey
+                    through time and experience the wonders of Egypt like never before.</p>
+
+
+            </div>
+
+            <h1 id="timeline">Dynasties of Egypt</h1>
+
+            <div class="king-container">
+                <div class="king-col" style="grid-area: item1;">
+                    <div class="king-timeline">
+                        <h5>Old Kingdom</h5>
+                        <small>(ca. 2686-2181 BC)</small>
+                    </div>
+                    <a href="#id1" class="profile-link">
+                        <article class="king-profile">
+                            <img src="./img/Khafre_thumb.jpg" alt="Representation of Khafre" class="king-img">
+                            <h3>Khafre</h3>
+                            <small>(ca. 2570-2544 BCE, 4th Dynasty)</small>
+                        </article>
+                    </a>
+                </div>
+
+                <div class="king-col" style="grid-area: item2;">
+                    <div class="king-timeline-2">
+                        <h5>Middle Kingdom</h5>
+                        <small>(ca. 2055-1650 BC)</small>
+                    </div>
+                    <a href="#id2" class="profile-link">
+                        <article class="king-profile">
+                            <img src="./img/AmenemhatIII_thumb.jpg" alt="Representation of Khafre" class="king-img">
+                            <h3>Amenemhat III</h3>
+                            <small>(ca. 1860-1814 BCE, 12th Dynasty)</small>
+                        </article>
+                    </a>
+                </div>
+
+                <div class="king-col-2" style="grid-area: item3;">
+                    <div class="king-timeline">
+                        <h5>New Kingdom</h5>
+                        <small>(ca. 1550-1069 BC)</small>
+                    </div>
+                    <div class="two-kings">
+                        <a href="#id3" class="profile-link">
+                            <article class="king-profile">
+                                <img src="./img/RamessesII_thumb.jpg" alt="Representation of Khafre" class="king-img">
+                                <h3>Ramesses II</h3>
+                                <small>(ca. 1292-1189 BCE, 19th Dynasty)</small>
+                            </article>
+                        </a>
+                        <a href="#id4" class="profile-link">
+                            <article class="king-profile">
+                                <img src="./img/RamessesIII_thumb.jpg" alt="Representation of Khafre" class="king-img">
+                                <h3>Ramesses III</h3>
+                                <small>(ca. 1189-1069 BCE, 20th Dynasty)</small>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="artifact-container" aria-labelledby="artifact-title">
+            <h1 id="artifacts">Artifacts of Egyptian Kingdom</h1>
+
+            <!-- Khafre -->
+            <!-- Khafre -->
+            <!-- Khafre -->
+            <div class="artifact-item" id="id1">
+                <div class="artifact-item-col">
+                    <div class="artifact-item-info">
+                        <h3>Seated Statue of Khafre</h3>
+                        <p class="period">(ca. 2613–2498 BCE, 4th Dynasty)</p>
+                        <p class="king-content">Khafre, a prominent pharaoh of the 4th Dynasty, ruled Egypt during the
+                            Old Kingdom, around 2570 BC. He is best known for
+                            his enduring contributions to the Giza Plateau, including the construction of the
+                            second-largest pyramid and the iconic
+                            Great Sphinx, which is thought to bear his likeness. Artifacts from his reign, such as the
+                            seated diorite statue,
+                            emphasize his divine authority and enduring legacy. Khafre’s rule symbolizes the
+                            architectural and cultural advancements
+                            of ancient Egypt’s pyramid age.</p>
+                    </div>
+                    <div class="artifact-item-gallery">
+                        <div class="gallery-container" id="gallery-1" tabindex="0">
+                            <img src="./img/model_Khafre_1.png" alt="Seated Statue of Khafre"
+                                class="gallery-image active">
+                            <div class="gallery-controls">
+                                <button class="gallery-dot active" aria-label="View image 1"></button>
+                                <button class="gallery-dot" aria-label="View image 2"></button>
+                                <button class="gallery-dot" aria-label="View image 3"></button>
+                                <button class="gallery-dot" aria-label="View image 4"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="artifact-3Dviewer">3D model viewer</div>
+                <div class="detail-info-left">
+                    <h5 class="about-model">About the model</h5>
+                    <ul>
+                        <li>Dimensions: Approximately 1.68 meters tall (~5.5 feet)</li>
+                        <li>Provenance: Discovered in the Valley Temple of Khafre, Giza Plateau.</li>
+                        <li>Material: Diorite (a durable and prestigious stone symbolizing permanence).</li>
+
+                    </ul>
+                </div>
+                <div class="detail-info-right">
+                    <ul>
+                        <li>Current Location: Egyptian Museum, Cairo.</li>
+                        <li>Notes: This iconic statue portrays Khafre seated on a throne with the falcon god Horus
+                            protecting him from behind. The craftsmanship reflects the artistry and divine symbolism
+                            of the Old Kingdom.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Amenemhat III -->
+            <!-- Amenemhat III -->
+            <!-- Amenemhat III -->
+            <div class="artifact-item" id="id2">
+                <div class="artifact-item-col">
+                    <div class="artifact-item-info">
+                        <h3>Granite Head of Amenemhat III</h3>
+                        <p class="period">(ca. 1991-1803 BCE, 12th Dynasty)</p>
+                        <p class="king-content">Amenemhat III was a pharaoh of the 12th Dynasty who ruled Egypt from
+                            1860 to 1814 BC. A
+                            granite head from a colossal
+                            statue of the king wearing the nemes headdress and uraeus was found in the Temple of Bastet
+                            at Bubastis. Beyond the
+                            information in the sources, I know that Amenemhat III is known for his ambitious building
+                            projects, including his
+                            pyramid complex in general and the development of the Fayum Oasis. His reign is considered a
+                            golden age of the Middle
+                            Kingdom.</p>
+                    </div>
+                    <div class="artifact-item-gallery">
+                        <div class="gallery-container" id="gallery-2">
+                            <img src="./img/model_AmenemhatIII_1.png" alt="Granite head of Amenemhat III"
+                                class="gallery-image active">
+                            <div class="gallery-controls">
+                                <button class="gallery-dot active" aria-label="View image 1"></button>
+                                <button class="gallery-dot" aria-label="View image 2"></button>
+                                <button class="gallery-dot" aria-label="View image 3"></button>
+                                <button class="gallery-dot" aria-label="View image 4"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="artifact-3Dviewer">3D model viewer</div>
+                <div class="detail-info-left">
+                    <h5 class="about-model">About the model</h5>
+                    <ul>
+                        <li>Dimensions: Fragment; the original colossal statue is estimated to have been over 4 meters
+                            tall (~6.5 feet).</li>
+                        <li>Provenance: Found in the Temple of Bastet at Bubastis.</li>
+                        <li>Material: Granite.</li>
+                    </ul>
+                </div>
+                <div class="detail-info-right">
+                    <ul>
+                        <li>Current Location: British Museum, London.</li>
+                        <li>Notes: This head features the nemes headdress and uraeus, emphasizing Amenemhat III’s royal
+                            authority. His statues are
+                            celebrated for their realism, reflecting the artistic tendencies of the Middle Kingdom.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Ramesses II -->
+            <!-- Ramesses II -->
+            <!-- Ramesses II -->
+            <div class="artifact-item" id="id3">
+                <div class="artifact-item-col">
+                    <div class="artifact-item-info">
+                        <h3>Colossal Statue of Ramesses II</h3>
+                        <p class="period">(ca. 1292-1189 BCE, 19th Dynasty)</p>
+                        <p class="king-content">Ramesses II, also known as Ramesses the Great, reigned during the 19th
+                            Dynasty from 1279 to 1213 BC. Renowned for his
+                            military prowess and diplomatic achievements, he secured Egypt’s borders and signed one of
+                            the world’s earliest peace
+                            treaties with the Hittites. His architectural legacy includes the magnificent temples of Abu
+                            Simbel and the Ramesseum.
+                            Ramesses II’s reign marked a period of unparalleled prosperity and cultural renaissance in
+                            Egypt’s New Kingdom.</p>
+                    </div>
+                    <div class="artifact-item-gallery">
+                        <div class="gallery-container" id="gallery-3">
+                            <img src="./img/model_RamessesII_1.png" alt="Granite head of Amenemhat III"
+                                class="gallery-image active">
+                            <div class="gallery-controls">
+                                <button class="gallery-dot active" aria-label="View image 1"></button>
+                                <button class="gallery-dot" aria-label="View image 2"></button>
+                                <button class="gallery-dot" aria-label="View image 3"></button>
+                                <button class="gallery-dot" aria-label="View image 4"></button>
+                                <button class="gallery-dot" aria-label="View image 5"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="artifact-3Dviewer">3D model viewer</div>
+                <div class="detail-info-left">
+                    <h5 class="about-model">About the model</h5>
+                    <ul>
+                        <li>Dimensions: Approximately 11 meters tall (~36 feet).</li>
+                        <li>Provenance: Originally stood at the Great Temple of Ptah in Memphis.</li>
+                        <li>Material: Red granite.</li>
+                    </ul>
+                </div>
+                <div class="detail-info-right">
+                    <ul>
+                        <li>Current Location: Grand Egyptian Museum (Giza). Previously displayed in Ramses Square,
+                            Cairo.</li>
+                        <li>Notes: This towering statue exemplifies Ramesses II’s grandeur and is one of the many
+                            colossal representations of him found
+                            throughout Egypt. Its relocation highlights its significance as a cultural artifact.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Ramesses III -->
+            <!-- Ramesses III -->
+            <!-- Ramesses III -->
+            <div class="artifact-item" id="id4">
+                <div class="artifact-item-col">
+                    <div class="artifact-item-info">
+                        <h3>SStanding Statue of Ramesses III</h3>
+                        <p class="period">(ca. 1189-1069 BCE, 20th Dynasty)</p>
+                        <p class="king-content">Ramesses III, a pharaoh of the 20th Dynasty, ruled Egypt from 1186 to
+                            1155 BC. He is celebrated for his decisive
+                            victories over the Sea Peoples, preserving Egypt’s stability during a time of widespread
+                            upheaval. His mortuary temple
+                            at Medinet Habu is among the most well-preserved and provides invaluable insights into New
+                            Kingdom art and religious
+                            practices. Despite challenges late in his reign, Ramesses III’s military and administrative
+                            efforts ensured his lasting
+                            reputation as Egypt’s last great pharaoh.</p>
+                    </div>
+                    <div class="artifact-item-gallery">
+                        <div class="gallery-container" id="gallery-4">
+                            <img src="./img/model_RamessesIII_1.png" alt="Granite head of Amenemhat III"
+                                class="gallery-image active">
+                            <div class="gallery-controls">
+                                <button class="gallery-dot active" aria-label="View image 1"></button>
+                                <button class="gallery-dot" aria-label="View image 2"></button>
+                                <button class="gallery-dot" aria-label="View image 3"></button>
+                                <button class="gallery-dot" aria-label="View image 4"></button>
+                                <button class="gallery-dot" aria-label="View image 5"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="artifact-3Dviewer">3D model viewer</div>
+                <div class="detail-info-left">
+                    <h5 class="about-model">About the model</h5>
+                    <ul>
+                        <li>Dimensions: Approximately 3 meters tall (~10 feet).</li>
+                        <li>Provenance: Medinet Habu (mortuary temple).</li>
+                        <li>Material: Sandstone.</li>
+                    </ul>
+                </div>
+                <div class="detail-info-right">
+                    <ul>
+                        <li>Current Location: Luxor Museum, Luxor.</li>
+                        <li>Notes: This statue depicts Ramesses III in a traditional standing pose, emphasizing his role
+                            as a warrior and protector. It is
+                            part of the impressive collection of artifacts from his mortuary temple, which is richly
+                            adorned with inscriptions and
+                            reliefs.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Kingdom of Ancient Egypt. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/script.js" defer></script>
 </body>
 
 </html>
