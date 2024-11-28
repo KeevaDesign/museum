@@ -226,7 +226,8 @@ small {
     align-items: center;
     cursor: pointer;
     background-color: #f1f1f1;
-    padding-bottom: 30px;
+    padding: 10px 10px 30px 10px;
+
 }
 
 .profile-link {
@@ -247,7 +248,7 @@ small {
 
 .king-img {
     margin: 2rem auto 1rem auto;
-    width: 50%;
+    width: 60%;
     aspect-ratio: 1 / 1;
     border-radius: 999px;
     object-fit: cover;
@@ -544,6 +545,9 @@ footer {
         flex-direction: column;
     }
 
+    .king-img {
+        width: 80%;
+    }
 
     .artifact-item {
         grid-template-columns: 1fr;
