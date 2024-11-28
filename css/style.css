@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* Petrona */
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --color-primary: #8B7355;
@@ -24,7 +26,9 @@ html {
 
 body {
     /* font-family: "Roboto", sans-serif; */
-    font-family: "Cormorant", serif;
+    /* font-family: "Cormorant", serif; */
+    font-family: "Petrona", serif;
+    font-weight: 400;
     line-height: 1.6;
     color: var(--color-text);
     background-color: var(--color-background);
@@ -83,15 +87,23 @@ small {
 /* Mobile Navigation */
 .mob-nav {
     background-color: white;
-    width: 44px;
-    height: 44px;
+    width: 46px;
+    height: 46px;
     text-align: center;
     border-radius: 50%;
     display: none;
     /* Hidden by default */
     cursor: pointer;
     align-content: center;
+}
 
+.hamburger {
+    font-size: 20px;
+    color: var(--color-primary);
+    padding: 10px auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .mob-nav:focus {
@@ -347,6 +359,7 @@ ul {
 /* Footer */
 footer {
     text-align: center;
+    font-size: 14px;
     padding: 32px;
     background-color: #333;
     color: white;
@@ -371,7 +384,7 @@ footer {
     /*** Mobile styles here ***/
 
     .header {
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -438,7 +451,7 @@ footer {
 
     .overview {
         margin: 20px auto 60px auto;
-        width: 90%;
+        width: 96%;
     }
 
 
