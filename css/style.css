@@ -205,6 +205,11 @@ small {
     padding: 10px;
 }
 
+.click-icon {
+    width: 10%;
+    padding-top: 8px;
+}
+
 .timeline-container,
 .artifact-container,
 .disclaimer-container {
@@ -221,6 +226,7 @@ small {
     align-items: center;
     cursor: pointer;
     background-color: #f1f1f1;
+    padding-bottom: 30px;
 }
 
 .profile-link {
