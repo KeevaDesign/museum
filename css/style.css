@@ -384,7 +384,7 @@ footer {
     /*** Mobile styles here ***/
 
     .header {
-        height: 500px;
+        height: 600px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
