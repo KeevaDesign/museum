@@ -500,9 +500,22 @@ footer {
         z-index: 2;
     }
 
+    .click-icon {
+        width: 44px;
+    }
+
     .overview {
         margin: 20px auto 60px auto;
         width: 96%;
+    }
+
+    .timeline-container,
+    .artifact-container,
+    .disclaimer-container {
+        padding: 00px;
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
     }
 
 
