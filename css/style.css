@@ -285,7 +285,7 @@ small {
 .king-content {
     margin: 2rem auto;
     font-size: 16px;
-    line-height: 1.4rem;
+    line-height: 2rem;
 }
 
 .artifact-item-gallery {
@@ -547,6 +547,12 @@ footer {
 
     .king-img {
         width: 80%;
+    }
+
+
+    .king-content {
+        font-size: 18px;
+        line-height: 2.2rem;
     }
 
     .artifact-item {
