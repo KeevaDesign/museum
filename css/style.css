@@ -314,6 +314,14 @@ model-viewer {
     justify-content: center;
 }
 
+.update-bar {
+
+    background-color: #8B7355;
+}
+
+.view-btn {
+    background-color: #45a049;
+}
 
 /* .Hotspot {
     padding: 10px;
@@ -539,8 +547,6 @@ ul {
 .audio-title {
     font-weight: 600;
 }
-
-
 
 audio {
     width: 100%;
