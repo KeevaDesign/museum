@@ -9,6 +9,9 @@
     <meta name="description" content="Explore the ancient Egyptian dynasties and their remarkable artifacts">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js" defer></script>
+    <!-- Import the component -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
 </head>
 
 <body>
@@ -62,7 +65,13 @@
                     a journey
                     through time and experience the wonders of Egypt like never before.</p>
 
-
+                <div class="audio-wrapper">
+                    <p class="audio-title">Listen to the History of Ancient Egypt</p>
+                    <audio controls>
+                        <source src="./img/The_Kingdom_of_Ancient_Egypt.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
             </div>
 
             <h1 id="timeline">Dynasties of Egypt</h1>
@@ -129,6 +138,7 @@
         <section class="artifact-container" aria-labelledby="artifact-title">
             <h1 id="artifacts">Artifacts of Egyptian Kingdom</h1>
 
+
             <!-- Khafre -->
             <!-- Khafre -->
             <!-- Khafre -->
@@ -137,8 +147,8 @@
                     <div class="artifact-item-info">
                         <h3>Seated Statue of Khafre</h3>
                         <p class="period">(ca. 2613–2498 BCE, 4th Dynasty)</p>
-
                     </div>
+
                     <div class="artifact-item-gallery">
                         <div class="gallery-container" id="gallery-1" tabindex="0">
                             <img src="./img/model_Khafre_1.png" alt="Seated Statue of Khafre"
@@ -163,7 +173,45 @@
                             of ancient Egypt’s pyramid age.</p>
                     </div>
                 </div>
-                <div class="artifact-3Dviewer">3D model viewer</div>
+                <!-- 3D Model Viewer -->
+                <model-viewer src="./img/01_Khafre.glb" alt="A 3D model of Seated Statue of Khafre" ar auto-rotate
+                    shadow-intensity="3" touch-action="pan-y" exposure="1" camera-controls
+                    poster="./img/poster_Khafre.jpg">
+
+                    <button class="Hotspot_khafre01" slot="hotspot-2"
+                        data-position="0.06063405059009419m 1.616801240911001m -0.4158848257500747m"
+                        data-normal="0.8135079862667562m 0.5006779161255588m -0.2958485771207551m"
+                        data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation_khafre01">The falcon at the back of Khafre’s head symbolizes
+                            protection by the god Horus.</div>
+                    </button><button class="Hotspot_khafre02" slot="hotspot-3"
+                        data-position="0.29673525636429776m 0.8379000313574652m -0.3935067173489495m"
+                        data-normal="0.9987751672891342m -0.031129037753544322m 0.0384596959829427m"
+                        data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation_khafre02">The statue’s diorite material explains its symbolic
+                            significance of eternal strength.</div>
+                    </button><button class="Hotspot_khafre03" slot="hotspot-4"
+                        data-position="-0.28454107916519256m 0.4037929806625653m -0.32059876831554623m"
+                        data-normal="-0.9900229293716885m -0.10845417068853944m -0.08995716857795141m"
+                        data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation_khafre03">The throne’s intricate carvings, the Sema
+                            Tawy symbol (lotus and papyrus plants), represent the unification of Upper and Lower Egypt.
+                        </div>
+                    </button>
+
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+
+                    <div id="ar-prompt">
+                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                    </div>
+
+                </model-viewer>
+                <!-- End of 3D Model Viewer -->
                 <div class="detail-info-left">
                     <h5 class="about-model">About the model</h5>
                     <ul>
@@ -217,7 +265,40 @@
                             Kingdom.</p>
                     </div>
                 </div>
-                <div class="artifact-3Dviewer">3D model viewer</div>
+                <!-- 3D Model Viewer -->
+                <model-viewer src="./img/02_Amenemhat_III.glb" alt="A 3D model of Granite Head of Amenemhat III" ar
+                    auto-rotate shadow-intensity="3" touch-action="pan-y" exposure="0.6" camera-controls
+                    poster="./img/poster_AmenemhatIII.jpg">
+
+                    <button class="Hotspot_AmenemhatIII01" slot="hotspot-1"
+                        data-position="0.009120106137277956m 0.2841127316098108m 0.08512106822826737m"
+                        data-normal="0.2795998205839675m 0.6292598565969714m 0.7251592743701016m"
+                        data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation_AmenemhatIII01">The royal headdress symbolizes kingship and divine
+                            authority.
+                        </div>
+                    </button><button class="Hotspot_AmenemhatIII02" slot="hotspot-2"
+                        data-position="0.06229222793803285m 0.1541849004824673m 0.0015984903195486178m"
+                        data-normal="0.5367368957197188m -0.4972475605105368m 0.6816585423358824m"
+                        data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation_AmenemhatIII02">The prominent ears, which may symbolize the
+                            pharaoh’s
+                            attentiveness to his people.</div>
+                    </button>
+
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+
+                    <div id="ar-prompt">
+                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                    </div>
+                </model-viewer>
+                <!-- End of 3D Model Viewer -->
                 <div class="detail-info-left">
                     <h5 class="about-model">About the model</h5>
                     <ul>
@@ -250,7 +331,7 @@
                     </div>
                     <div class="artifact-item-gallery">
                         <div class="gallery-container" id="gallery-3">
-                            <img src="./img/model_RamessesII_1.png" alt="Granite head of Amenemhat III"
+                            <img src="./img/model_RamessesII_1.png" alt="Colossal Statue of Ramesses II"
                                 class="gallery-image active">
                             <div class="gallery-controls">
                                 <button class="gallery-dot active" aria-label="View image 1"></button>
@@ -272,7 +353,39 @@
                             Egypt’s New Kingdom.</p>
                     </div>
                 </div>
-                <div class="artifact-3Dviewer">3D model viewer</div>
+                <!-- 3D Model Viewer -->
+                <model-viewer src="./img/03_Ramesses_II.glb" alt="A 3D model of Colossal Statue of Ramesses II" ar
+                    auto-rotate shadow-intensity="2" touch-action="pan-y" exposure="0.5" camera-controls
+                    poster="./img/poster_RamessesII.jpg">
+
+                    <button class="Hotspot_RamessesII01" slot="hotspot-1"
+                        data-position="0.9843638925630191m 4.906503220746487m 0.21684025080334202m"
+                        data-normal="0.9959495985918398m -0.017491598853206256m 0.08819547059975104m"
+                        data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation_RamessesII01">The double crown, representing the unification of
+                            Upper and Lower
+                            Egypt.</div>
+                    </button><button class="Hotspot_RamessesII02" slot="hotspot-2"
+                        data-position="0.00036945003575938884m 2.1448242427422555m 1.3469201326509381m"
+                        data-normal="-0.5599126180755201m 0.19142522613293322m 0.8061353750579192m"
+                        data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation_RamessesII02">The false beard attached to the chin, a symbol of
+                            divine
+                            authority and connection to
+                            the gods.</div>
+                    </button>
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+                    <div id="ar-prompt">
+                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                    </div>
+
+                </model-viewer>
+                <!-- End of 3D Model Viewer -->
                 <div class="detail-info-left">
                     <h5 class="about-model">About the model</h5>
                     <ul>
@@ -299,13 +412,13 @@
             <div class="artifact-item" id="id4">
                 <div class="artifact-item-col">
                     <div class="artifact-item-info">
-                        <h3>SStanding Statue of Ramesses III</h3>
+                        <h3>Standing Statue of Ramesses III</h3>
                         <p class="period">(ca. 1189-1069 BCE, 20th Dynasty)</p>
 
                     </div>
                     <div class="artifact-item-gallery">
                         <div class="gallery-container" id="gallery-4">
-                            <img src="./img/model_RamessesIII_1.png" alt="Granite head of Amenemhat III"
+                            <img src="./img/model_RamessesIII_1.png" alt="Standing Statue of Ramesses III"
                                 class="gallery-image active">
                             <div class="gallery-controls">
                                 <button class="gallery-dot active" aria-label="View image 1"></button>
@@ -328,7 +441,40 @@
                             reputation as Egypt’s last great pharaoh.</p>
                     </div>
                 </div>
-                <div class="artifact-3Dviewer">3D model viewer</div>
+                <!-- 3D Model Viewer -->
+                <model-viewer src="./img/04_Ramesses_III.glb" alt="A 3D model of Standing Statue of Ramesses III" ar
+                    auto-rotate shadow-intensity="3" touch-action="pan-y" exposure="0.5"
+                    skybox-image="./img/skybox_sand.jpg" skybox-height="2m" camera-controls
+                    poster="./img/poster_RamessesIII.jpg">
+
+                    <button class="Hotspot_RamessesIII01" slot="hotspot-1"
+                        data-position="-0.34291851860106415m 2.6445793459518985m -0.17934568476444035m"
+                        data-normal="-0.9927213700212781m 0.009288925390463724m 0.12007496561801334m"
+                        data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation_RamessesIII01">The Uraeus on the headdress symbolizes the
+                            pharaoh’s divine
+                            protection and
+                            sovereignty.</div>
+                    </button><button class="Hotspot_RamessesIII02" slot="hotspot-2"
+                        data-position="0.37572689347225974m 1.4422418188705755m 0.5179749827148861m"
+                        data-normal="0.9137584118463173m 0.22698703199076972m 0.3369309307382112m"
+                        data-visibility-attribute="visible">
+                        <div class="HotspotAnnotation_RamessesIII02">The traditional pleated kilt worn by pharaohs was
+                            often inscribed
+                            with symbols of
+                            kingship.</div>
+                    </button>
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+                    <div id="ar-prompt">
+                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                    </div>
+                </model-viewer>
+                <!-- End of 3D Model Viewer -->
                 <div class="detail-info-left">
                     <h5 class="about-model">About the model</h5>
                     <ul>
@@ -384,6 +530,19 @@
     </footer>
 
     <script src="./js/script.js" defer></script>
+    <script>
+        const audio = document.getElementById('custom-audio');
+        const playBtn = document.querySelector('.play-btn');
+        const pauseBtn = document.querySelector('.pause-btn');
+
+        playBtn.addEventListener('click', () => {
+            audio.play();
+        });
+
+        pauseBtn.addEventListener('click', () => {
+            audio.pause();
+        });
+    </script>
 </body>
 
 </html>
