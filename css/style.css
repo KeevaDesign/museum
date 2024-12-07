@@ -315,6 +315,7 @@ model-viewer {
 }
 
 .view-btn {
+    position: absolute;
     background-color: var(--color-primary);
     color: white;
     padding: 10px 20px;
@@ -323,8 +324,10 @@ model-viewer {
     cursor: pointer;
     font-size: 1rem;
     margin: 8px;
-    align-self: center;
-    justify-content: flex-end;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
 }
 
 
