@@ -324,10 +324,11 @@ model-viewer {
     cursor: pointer;
     font-size: 1rem;
     margin: 8px;
-    bottom: 20px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
+    width: 80%;
 }
 
 
@@ -847,7 +848,7 @@ footer {
     button[slot="hotspot-k1"],
     button[slot="hotspot-k2"],
     button[slot="hotspot-k3"] {
-        font-size: 14px;
+        font-size: 16px;
 
     }
 
