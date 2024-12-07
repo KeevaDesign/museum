@@ -325,23 +325,6 @@ model-viewer {
     margin: 8px;
 }
 
-.progress-bar.hide {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    height: 4px;
-    background-color: #ccc;
-}
-
-.update-bar {
-    height: 100%;
-    width: 0;
-    background-color: #0078D7;
-}
-
-.progress-bar.hide {
-    display: none;
-}
 
 #ar-prompt {
     display: none;
@@ -512,6 +495,11 @@ model-viewer {
     left: 0%;
     top: 0%;
     margin-left: 24px;
+}
+
+
+::slotted([slot="hotspot-k1"]) {
+    display: none;
 }
 
 
