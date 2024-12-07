@@ -326,7 +326,7 @@ model-viewer {
 }
 
 
-#ar-prompt {
+/* #ar-prompt {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -341,7 +341,7 @@ model-viewer {
 #ar-prompt img {
     height: 30px;
     width: auto;
-}
+} */
 
 /* .Hotspot {
     padding: 10px;
@@ -497,10 +497,9 @@ model-viewer {
     margin-left: 24px;
 }
 
-
-::slotted([slot="hotspot-k1"]) {
-    background-color: #0078d7;
-    color: white;
+button[slot="hotspot-k1"] {
+    background-color: wheat;
+    color: rgb(92, 46, 46);
     padding: 10px 20px;
     border: 1px solid white;
     border-radius: 5px;
