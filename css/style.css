@@ -499,7 +499,14 @@ model-viewer {
 
 
 ::slotted([slot="hotspot-k1"]) {
-    display: none;
+    background-color: #0078d7;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
 }
 
 
