@@ -843,6 +843,14 @@ footer {
         padding: 10px 0px;
     }
 
+
+    button[slot="hotspot-k1"],
+    button[slot="hotspot-k2"],
+    button[slot="hotspot-k3"] {
+        font-size: 14px;
+
+    }
+
     footer {
         grid-template-columns: 1fr;
     }
