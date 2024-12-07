@@ -314,13 +314,16 @@ model-viewer {
     justify-content: center;
 }
 
-.update-bar {
-
-    background-color: #8B7355;
+.progress-bar.hide {
+    display: none;
 }
 
 .view-btn {
     background-color: #45a049;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 /* .Hotspot {
@@ -403,7 +406,7 @@ model-viewer {
 .HotspotAnnotation_RamessesIII01,
 .HotspotAnnotation_RamessesIII02 {
     position: absolute;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240, 0.8);
     padding: 10px;
     border-radius: 10px;
     font-family: "Petrona", serif;
