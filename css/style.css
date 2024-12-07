@@ -314,16 +314,51 @@ model-viewer {
     justify-content: center;
 }
 
-.progress-bar.hide {
-    display: none;
-}
+
 
 .view-btn {
     background-color: #45a049;
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 1rem;
+}
+
+.progress-bar.hide {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 4px;
+    background-color: #ccc;
+}
+
+.update-bar {
+    height: 100%;
+    width: 0;
+    background-color: #0078D7;
+}
+
+.progress-bar.hide {
+    display: none;
+}
+
+#ar-prompt {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#ar-prompt img {
+    height: 30px;
+    width: auto;
 }
 
 /* .Hotspot {
