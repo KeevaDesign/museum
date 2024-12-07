@@ -314,8 +314,6 @@ model-viewer {
     justify-content: center;
 }
 
-
-
 .view-btn {
     background-color: #45a049;
     color: white;
@@ -449,6 +447,7 @@ model-viewer {
     font-size: 13px;
     text-align: left;
     border: 1px solid #DBD3C9;
+    color: #2f2f2f;
 }
 
 .HotspotAnnotation_khafre01 {
@@ -806,6 +805,10 @@ footer {
         border-radius: 20px;
         align-content: center;
         justify-content: center;
+    }
+
+    #ar-prompt {
+        display: block;
     }
 
     .artifact-item-info {
