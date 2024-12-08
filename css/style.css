@@ -345,8 +345,8 @@ model-viewer {
 }
 
 .hotspot[slot="hotspot-k1"] {
-    --min-hotspot-opacity: 0;
-    background-color: red;
+    --min-hotspot-opacity: 0 !important;
+    background-color: red !important;
 }
 
 .hotspot {
@@ -366,8 +366,8 @@ model-viewer {
 
 .hotspot[slot="hotspot-amen1"],
 .hotspot[slot="hotspot-amen2"] {
-    --min-hotspot-opacity: 0;
-    background-color: var(--color-primary);
+    --min-hotspot-opacity: 0 !important;
+    background-color: var(--color-primary) !important;
 }
 
 
