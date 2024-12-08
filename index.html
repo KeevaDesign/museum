@@ -271,7 +271,7 @@
                     </div>
                 </div>
                 <!-- 3D Model Viewer -->
-                <model-viewer src="./img/02_Amenemhat_III.glb" alt="A 3D model of Granite Head of Amenemhat III" ar
+                <!-- <model-viewer src="./img/02_Amenemhat_III.glb" alt="A 3D model of Granite Head of Amenemhat III" ar
                     auto-rotate shadow-intensity="3" touch-action="pan-y" exposure="0.6" camera-controls
                     poster="./img/poster_AmenemhatIII.jpg">
 
@@ -290,15 +290,26 @@
                     <button slot="ar-button" id="ar-button" class="view-btn">
                         <i class="fa-solid fa-street-view"></i> View in your space
                     </button>
-                </model-viewer>
+                </model-viewer> -->
 
-                <model-viewer src="./img/02_Amenemhat_III.glb" ar ar-modes="webxr scene-viewer quick-look"
-                    camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" exposure="0.75">
-                    <button class="Hotspot" slot="hotspot-amen"
+                <model-viewer src="./img/02_Amenemhat_III.glb" alt="A 3D model of Granite Head of Amenemhat III" ar
+                    ar-modes="webxr scene-viewer quick-look" camera-controls shadow-intensity="3" exposure="0.75"
+                    touch-action="pan-y" auto-rotate poster="./img/loading_poster.gif">
+                    <button class="Hotspot" slot="hotspot-amen1"
+                        data-position="0m 0.2841127316098108m 0.08512106822826737m"
+                        data-normal="0.2795998205839675m 0.6292598565969714m 0.7251592743701016m"
+                        data-visibility-attribute="visible">
+                        <div class="annotation">The Royal Headdress</div>
+                    </button>
+
+                    <button class="Hotspot" slot="hotspot-amen2"
                         data-position="0.06782491622119635m 0.1751771198271299m 0.033176995912532536m"
                         data-normal="0.3929088519731807m 0.13763000019600444m 0.9092197848084724m"
                         data-visibility-attribute="visible">
                         <div class="annotation">The Prominent Ears</div>
+                    </button>
+                    <button slot="ar-button" id="ar-button" class="view-btn">
+                        <i class="fa-solid fa-street-view"></i> View in your space
                     </button>
                 </model-viewer>
 

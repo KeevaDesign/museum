@@ -355,16 +355,16 @@ model-viewer {
     pointer-events: none;
 }
 
-.hotspot[slot="hotspot-"] {
+.hotspot[slot="hotspot-amen1"],
+.hotspot[slot="hotspot-amen2"] {
     --min-hotspot-opacity: 0;
-    background-color: red;
-    width: 20px;
-    height: 20px;
+    background-color: var(--color-primary);
 }
 
 
 .annotation {
     background-color: #dedede;
+    color: var(--color-text);
     position: absolute;
     transform: translate(10px, 10px);
     border-radius: 10px;
