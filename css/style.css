@@ -350,7 +350,7 @@ model-viewer {
     height: 20px;
     border-radius: 10px;
     border: none;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color-background);
     box-sizing: border-box;
     pointer-events: none;
 }
@@ -358,15 +358,18 @@ model-viewer {
 .hotspot[slot="hotspot-"] {
     --min-hotspot-opacity: 0;
     background-color: red;
+    width: 20px;
+    height: 20px;
 }
 
 
 .annotation {
-    background-color: #888888;
+    background-color: #dedede;
     position: absolute;
     transform: translate(10px, 10px);
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px 4px;
+    width: 120px;
 }
 
 button[slot="hotspot-k1"],
