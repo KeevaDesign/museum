@@ -183,31 +183,27 @@
                 </div>
                 <!-- 3D Model Viewer -->
                 <model-viewer src="./img/01_Khafre.glb" alt="A 3D model of Seated Statue of Khafre" ar auto-rotate
-                    shadow-intensity="3" touch-action="pan-y" exposure="1" camera-controls
-                    poster="./img/loading_poster.gif">
+                    shadow-intensity="2" touch-action="pan-y" exposure="3" camera-controls
+                    skybox-image="./img/skybox_sand.jpg" skybox-height="2m" poster="./img/loading_poster.gif">
 
                     <button slot="hotspot-k1"
                         data-position="0.06063405059009419m 1.616801240911001m -0.4158848257500747m"
                         data-normal="0.8135079862667562m 0.5006779161255588m -0.2958485771207551m"
                         data-visibility-attribute="visible">
-                        <i class="fa-regular fa-eye"></i> The Falcon
-                        <!-- <div class="HotspotAnnotation_khafre01">The falcon at the back of Khafre’s head symbolizes
-                            protection by the god Horus.</div> -->
-                    </button><button slot="hotspot-k2"
+                        <div class="annotation"><i class="fa-regular fa-eye"></i> The Falcon</div>
+
+                    </button>
+                    <button slot="hotspot-k2"
                         data-position="0.29673525636429776m 0.8379000313574652m -0.3935067173489495m"
                         data-normal="0.9987751672891342m -0.031129037753544322m 0.0384596959829427m"
                         data-visibility-attribute="visible">
                         <i class="fa-regular fa-eye"></i> The Statue's Material
-                        <!-- <div class="HotspotAnnotation_khafre02">The statue’s diorite material explains its symbolic
-                            significance of eternal strength.</div> -->
-                    </button><button slot="hotspot-k3"
+                    </button>
+                    <button slot="hotspot-k3"
                         data-position="-0.28454107916519256m 0.4037929806625653m -0.32059876831554623m"
                         data-normal="-0.9900229293716885m -0.10845417068853944m -0.08995716857795141m"
                         data-visibility-attribute="visible">
                         <i class="fa-regular fa-eye"></i>The Throne
-                        <!-- <div class="HotspotAnnotation_khafre03">The throne’s intricate carvings, the Sema
-                            Tawy symbol (lotus and papyrus plants), represent the unification of Upper and Lower Egypt.
-                        </div> -->
                     </button>
 
                     <button slot="ar-button" id="ar-button" class="view-btn">
@@ -258,15 +254,16 @@
                     </div>
                     <div class="artifact-item-info">
                         <p class="king-content">Amenemhat III was a pharaoh of the 12th Dynasty who ruled Egypt from
-                            1860 to 1814 BC. A
-                            granite head from a colossal
-                            statue of the king wearing the nemes headdress and uraeus was found in the Temple of Bastet
-                            at Bubastis. Beyond the
-                            information in the sources, I know that Amenemhat III is known for his ambitious building
-                            projects, including his
-                            pyramid complex in general and the development of the Fayum Oasis. His reign is considered a
-                            golden age of the Middle
-                            Kingdom.</p>
+                            1860 to 1814 BC. A granite head from <b>a colossal
+                                statue</b> <i class="fa-regular fa-eye"></i> of the king wearing the nemes headdress and
+                            uraeus was found in the Temple of Bastet
+                            at Bubastis. <b>The prominent ears</b> <i class="fa-regular fa-eye"></i> of the Granite Head
+                            of Amenemhat III, which symbolize the
+                            pharaoh’s attentiveness to his people. Also, Amenemhat III is known for his ambitious
+                            building
+                            projects, including his pyramid complex in general and the development of the Fayum Oasis.
+                            His reign is considered a
+                            golden age of the Middle Kingdom.</p>
                     </div>
                 </div>
                 <!-- 3D Model Viewer -->
@@ -274,29 +271,21 @@
                     auto-rotate shadow-intensity="3" touch-action="pan-y" exposure="0.6" camera-controls
                     poster="./img/poster_AmenemhatIII.jpg">
 
-                    <button class="Hotspot_AmenemhatIII01" slot="hotspot-A1"
-                        data-position="0.009120106137277956m 0.2841127316098108m 0.08512106822826737m"
+                    <button slot="hotspot-A1" data-position="0m 0.2841127316098108m 0.08512106822826737m"
                         data-normal="0.2795998205839675m 0.6292598565969714m 0.7251592743701016m"
                         data-visibility-attribute="visible">
-                        <div class="HotspotAnnotation_AmenemhatIII01">The royal headdress symbolizes kingship and divine
-                            authority.
-                        </div>
-                    </button><button class="Hotspot_AmenemhatIII02" slot="hotspot-A2"
-                        data-position="0.06229222793803285m 0.1541849004824673m 0.0015984903195486178m"
+                        <i class="fa-regular fa-eye"></i> The Royal Headdress
+                    </button>
+                    <button slot="hotspot-A2"
+                        data-position="0.07068722847843578m 0.1753458094041926m 0.031544808683981795m"
                         data-normal="0.5367368957197188m -0.4972475605105368m 0.6816585423358824m"
                         data-visibility-attribute="visible">
-                        <div class="HotspotAnnotation_AmenemhatIII02">The prominent ears, which may symbolize the
-                            pharaoh’s
-                            attentiveness to his people.</div>
+                        <i class="fa-regular fa-eye"></i> The Prominent Ears
                     </button>
 
                     <button slot="ar-button" id="ar-button" class="view-btn">
-                        View in your space
+                        <i class="fa-solid fa-street-view"></i> View in your space
                     </button>
-
-                    <div id="ar-prompt">
-                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-                    </div>
                 </model-viewer>
                 <!-- End of 3D Model Viewer -->
                 <div class="detail-info-left">
@@ -343,14 +332,21 @@
                         </div>
                     </div>
                     <div class="artifact-item-info">
-                        <p class="king-content">Ramesses II, also known as Ramesses the Great, reigned during the 19th
-                            Dynasty from 1279 to 1213 BC. Renowned for his
-                            military prowess and diplomatic achievements, he secured Egypt’s borders and signed one of
-                            the world’s earliest peace
-                            treaties with the Hittites. His architectural legacy includes the magnificent temples of Abu
-                            Simbel and the Ramesseum.
-                            Ramesses II’s reign marked a period of unparalleled prosperity and cultural renaissance in
-                            Egypt’s New Kingdom.</p>
+                        <p class="king-content">Ramesses II, famously known as Ramesses the Great, reigned as pharaoh
+                            during Egypt’s 19th Dynasty from 1279 to 1213 BCE.
+                            Celebrated for his exceptional military prowess and diplomatic acumen, he fortified Egypt’s
+                            borders and secured its
+                            influence through decisive campaigns and alliances. Among his notable achievements was the
+                            signing of the historic peace
+                            treaty with the Hittites, one of the earliest recorded treaties in history.
+                        </p>
+                        <p class="king-content">
+                            Symbolizing his divine authority and role as the unifier of Egypt, Ramesses II often adorned
+                            the <b>double crown</b> <i class="fa-regular fa-eye"></i>,
+                            representing the unification of Upper and Lower Egypt, and the iconic <b>false beard</b> <i
+                                class="fa-regular fa-eye"></i>, signifying his connection to the
+                            gods. His reign marked an era of prosperity, innovation, and a lasting legacy in Egypt’s
+                            illustrious New Kingdom.</p>
                     </div>
                 </div>
                 <!-- 3D Model Viewer -->
@@ -358,29 +354,21 @@
                     auto-rotate shadow-intensity="2" touch-action="pan-y" exposure="0.5" camera-controls
                     poster="./img/loading_poster.gif">
 
-                    <button class="Hotspot_RamessesII01" slot="hotspot-RI01"
+                    <button slot="hotspot-RI01"
                         data-position="0.9843638925630191m 4.906503220746487m 0.21684025080334202m"
                         data-normal="0.9959495985918398m -0.017491598853206256m 0.08819547059975104m"
                         data-visibility-attribute="visible">
-                        <div class="HotspotAnnotation_RamessesII01">The double crown, representing the unification of
-                            Upper and Lower
-                            Egypt.</div>
-                    </button><button class="Hotspot_RamessesII02" slot="hotspot-RI02"
-                        data-position="0.00036945003575938884m 2.1448242427422555m 1.3469201326509381m"
+                        <i class="fa-regular fa-eye"></i> The Double Crown
+                    </button>
+                    <button slot="hotspot-RI02" data-position="0.3m 2.1448242427422555m 1.3469201326509381m"
                         data-normal="-0.5599126180755201m 0.19142522613293322m 0.8061353750579192m"
                         data-visibility-attribute="visible">
-                        <div class="HotspotAnnotation_RamessesII02">The false beard attached to the chin, a symbol of
-                            divine
-                            authority and connection to
-                            the gods.</div>
+                        <i class="fa-regular fa-eye"></i>The False Beard
                     </button>
 
                     <button slot="ar-button" id="ar-button" class="view-btn">
-                        View in your space
+                        <i class="fa-solid fa-street-view"></i> View in your space
                     </button>
-                    <div id="ar-prompt">
-                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-                    </div>
 
                 </model-viewer>
                 <!-- End of 3D Model Viewer -->
@@ -428,47 +416,46 @@
                         </div>
                     </div>
                     <div class="artifact-item-info">
-                        <p class="king-content">Ramesses III, a pharaoh of the 20th Dynasty, ruled Egypt from 1186 to
-                            1155 BC. He is celebrated for his decisive
-                            victories over the Sea Peoples, preserving Egypt’s stability during a time of widespread
-                            upheaval. His mortuary temple
-                            at Medinet Habu is among the most well-preserved and provides invaluable insights into New
-                            Kingdom art and religious
-                            practices. Despite challenges late in his reign, Ramesses III’s military and administrative
-                            efforts ensured his lasting
-                            reputation as Egypt’s last great pharaoh.</p>
+                        <p class="king-content">amesses III, a prominent pharaoh of Egypt’s 20th Dynasty, ruled from
+                            1186 to 1155 BCE. He is renowned for his decisive
+                            victories over the Sea Peoples, a nomadic confederation whose invasions threatened the
+                            stability of ancient
+                            civilizations. Through his military prowess, Ramesses III safeguarded Egypt during a time of
+                            significant upheaval,
+                            preserving its territorial integrity and cultural heritage.</p>
+                        <p class="king-content">Symbolizing divine protection and sovereignty, the Uraeus—a rearing
+                            cobra—adorned his <b>headdress</b> <i class="fa-regular fa-eye"></i>, affirming his role as
+                            the chosen ruler of the gods. Additionally, <b>the traditional pleated kilt</b> <i
+                                class="fa-regular fa-eye"></i> worn by the pharaoh
+                            was often inscribed with
+                            symbols of kingship, underscoring his authority and connection to Egypt’s enduring
+                            traditions. Despite challenges in the
+                            later years of his rule, Ramesses III is remembered as Egypt’s last great pharaoh, embodying
+                            the resilience and grandeur
+                            of the New Kingdom.</p>
                     </div>
                 </div>
                 <!-- 3D Model Viewer -->
                 <model-viewer src="./img/04_Ramesses_III.glb" alt="A 3D model of Standing Statue of Ramesses III" ar
-                    auto-rotate shadow-intensity="3" touch-action="pan-y" exposure="0.5"
+                    auto-rotate shadow-intensity="3" touch-action="pan-y" exposure="0.75"
                     skybox-image="./img/skybox_sand.jpg" skybox-height="2m" camera-controls
                     poster="./img/loading_poster.gif">
 
-                    <button class="Hotspot_RamessesIII01" slot="hotspot-RII01"
-                        data-position="-0.34291851860106415m 2.6445793459518985m -0.17934568476444035m"
+                    <button slot="hotspot-RII01" data-position="0.5m 3.045m -0.17934568476444035m"
                         data-normal="-0.9927213700212781m 0.009288925390463724m 0.12007496561801334m"
                         data-visibility-attribute="visible">
-                        <div class="HotspotAnnotation_RamessesIII01">The Uraeus on the headdress symbolizes the
-                            pharaoh’s divine
-                            protection and
-                            sovereignty.</div>
-                    </button><button class="Hotspot_RamessesIII02" slot="hotspot-RII02"
+                        <i class="fa-regular fa-eye"></i> The Uraeus on the Headdress
+                    </button>
+                    <button slot="hotspot-RII02"
                         data-position="0.37572689347225974m 1.4422418188705755m 0.5179749827148861m"
                         data-normal="0.9137584118463173m 0.22698703199076972m 0.3369309307382112m"
                         data-visibility-attribute="visible">
-                        <div class="HotspotAnnotation_RamessesIII02">The traditional pleated kilt worn by pharaohs was
-                            often inscribed
-                            with symbols of
-                            kingship.</div>
+                        <i class="fa-regular fa-eye"></i> The Traditional Pleated Kilt
                     </button>
 
-                    <!-- <button slot="ar-button" id="ar-button" class="view-btn">
-                        View in your space
-                    </button> -->
-                    <div id="ar-prompt">
-                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-                    </div>
+                    <button slot="ar-button" id="ar-button" class="view-btn">
+                        <i class="fa-solid fa-street-view"></i> View in your space
+                    </button>
                 </model-viewer>
                 <!-- End of 3D Model Viewer -->
                 <div class="detail-info-left">
