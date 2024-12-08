@@ -64,7 +64,7 @@ b {
     text-decoration: underline;
 }
 
-i {
+.eye-icon {
     color: var(--color-primary);
     font-weight: 700;
 }
