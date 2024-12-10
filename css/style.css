@@ -344,19 +344,16 @@ model-viewer {
     width: 76%;
 }
 
-.hotspot[slot="hotspot-k1"] {
-    --min-hotspot-opacity: 0 !important;
-    background-color: red !important;
-}
 
-.hotspot {
+.Hotspot {
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-radius: 10px;
-    border: none;
-    background-color: blue;
+    border: 2px solid white;
+    background-color: var(--color-primary);
     box-sizing: border-box;
+    /* background-image: url(./img/eye-solid.svg); */
     /* pointer-events: none; */
 }
 
@@ -364,12 +361,18 @@ model-viewer {
     pointer-events: none;
 }
 
+.hotspot[slot="hotspot-k1"],
+.hotspot[slot="hotspot-k2"],
+.hotspot[slot="hotspot-k3"],
 .hotspot[slot="hotspot-amen1"],
-.hotspot[slot="hotspot-amen2"] {
+.hotspot[slot="hotspot-amen2"],
+.hotspot[slot="hotspot-RI01"],
+.hotspot[slot="hotspot-RI02"],
+.hotspot[slot="hotspot-RII01"],
+.hotspot[slot="hotspot-RII02"] {
     --min-hotspot-opacity: 0 !important;
     background-color: var(--color-primary) !important;
 }
-
 
 .annotation {
     background-color: #dedede;
@@ -379,9 +382,10 @@ model-viewer {
     border-radius: 10px;
     padding: 8px 4px;
     width: 120px;
+    font-size: 16px;
 }
 
-button[slot="hotspot-k1"],
+/* button[slot="hotspot-k1"],
 button[slot="hotspot-k2"],
 button[slot="hotspot-k3"],
 button[slot="hotspot-A1"],
@@ -391,13 +395,15 @@ button[slot="hotspot-RI02"],
 button[slot="hotspot-RII01"],
 button[slot="hotspot-RII02"] {
     font-size: 16px;
-    /* background-color: rgb(251, 246, 239, 0.6); */
+    background-color: rgb(251, 246, 239, 0.6); 
     color: rgb(30, 30, 30);
     padding: 4px;
     border: 0.4px solid white;
     border-radius: 5px;
     cursor: pointer;
-}
+} */
+
+/* End of Model Viewer*/
 
 
 .gallery-container {

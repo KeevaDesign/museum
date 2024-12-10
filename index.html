@@ -184,28 +184,29 @@
                     </div>
                 </div>
                 <!-- 3D Model Viewer -->
-                <model-viewer src="./img/01_Khafre.glb" alt="A 3D model of Seated Statue of Khafre" ar auto-rotate
-                    shadow-intensity="2" touch-action="pan-y" exposure="3" camera-controls
-                    skybox-image="./img/skybox_sand.jpg" skybox-height="2m" poster="./img/loading_poster.gif">
+                <model-viewer src="./img/01_Khafre.glb" alt="A 3D model of Seated Statue of Khafre" ar
+                    ar-modes="webxr scene-viewer quick-look" shadow-intensity="2" touch-action="pan-y" exposure="3"
+                    camera-controls skybox-image="./img/skybox_sand.jpg" skybox-height="2m"
+                    poster="./img/loading_poster.gif">
 
-                    <button slot="hotspot-k1"
+                    <button class="Hotspot" slot="hotspot-k1"
                         data-position="0.06063405059009419m 1.616801240911001m -0.4158848257500747m"
                         data-normal="0.8135079862667562m 0.5006779161255588m -0.2958485771207551m"
                         data-visibility-attribute="visible">
-                        <div class="annotation"><i class="fa-regular fa-eye"></i> The Falcon</div>
+                        <div class="annotation">The Falcon</div>
 
                     </button>
-                    <button slot="hotspot-k2"
+                    <button class="Hotspot" slot="hotspot-k2"
                         data-position="0.29673525636429776m 0.8379000313574652m -0.3935067173489495m"
                         data-normal="0.9987751672891342m -0.031129037753544322m 0.0384596959829427m"
                         data-visibility-attribute="visible">
-                        <i class="fa-regular fa-eye"></i> The Statue's Material
+                        <div class="annotation">The Statue's Material</div>
                     </button>
-                    <button slot="hotspot-k3"
+                    <button class="Hotspot" slot="hotspot-k3"
                         data-position="-0.28454107916519256m 0.4037929806625653m -0.32059876831554623m"
                         data-normal="-0.9900229293716885m -0.10845417068853944m -0.08995716857795141m"
                         data-visibility-attribute="visible">
-                        <i class="fa-regular fa-eye"></i> The Throne
+                        <div class="annotation">The Throne</div>
                     </button>
 
                     <button slot="ar-button" id="ar-button" class="view-btn">
@@ -381,16 +382,17 @@
                     auto-rotate shadow-intensity="2" touch-action="pan-y" exposure="0.5" camera-controls
                     poster="./img/loading_poster.gif">
 
-                    <button slot="hotspot-RI01"
+                    <button class="Hotspot" slot="hotspot-RI01"
                         data-position="0.9843638925630191m 4.906503220746487m 0.21684025080334202m"
                         data-normal="0.9959495985918398m -0.017491598853206256m 0.08819547059975104m"
                         data-visibility-attribute="visible">
-                        <i class="fa-regular fa-eye"></i> The Double Crown
+                        <div class="annotation">The Double Crown</div>
                     </button>
-                    <button slot="hotspot-RI02" data-position="0.3m 2.1448242427422555m 1.3469201326509381m"
+                    <button class="Hotspot" slot="hotspot-RI02"
+                        data-position="0.3m 2.1448242427422555m 1.3469201326509381m"
                         data-normal="-0.5599126180755201m 0.19142522613293322m 0.8061353750579192m"
                         data-visibility-attribute="visible">
-                        <i class="fa-regular fa-eye"></i> The False Beard
+                        <div class="annotation">The False Beard</div>
                     </button>
 
                     <button slot="ar-button" id="ar-button" class="view-btn">
@@ -469,16 +471,16 @@
                     skybox-image="./img/skybox_sand.jpg" skybox-height="2m" camera-controls
                     poster="./img/loading_poster.gif">
 
-                    <button slot="hotspot-RII01" data-position="0.5m 3.045m -0.17934568476444035m"
+                    <button class="Hotspot" slot="hotspot-RII01" data-position="0.09m 2.945m -0.17934568476444035m"
                         data-normal="-0.9927213700212781m 0.009288925390463724m 0.12007496561801334m"
                         data-visibility-attribute="visible">
-                        <i class="fa-regular fa-eye"></i> The Uraeus on the Headdress
+                        <div class="annotation">The Uraeus on the Headdress</div>
                     </button>
-                    <button slot="hotspot-RII02"
+                    <button class="Hotspot" slot="hotspot-RII02"
                         data-position="0.37572689347225974m 1.4422418188705755m 0.5179749827148861m"
                         data-normal="0.9137584118463173m 0.22698703199076972m 0.3369309307382112m"
                         data-visibility-attribute="visible">
-                        <i class="fa-regular fa-eye"></i> The Traditional Pleated Kilt
+                        <div class="annotation">The Traditional Pleated Kilt</div>
                     </button>
 
                     <button slot="ar-button" id="ar-button" class="view-btn">
